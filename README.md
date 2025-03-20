@@ -8,7 +8,8 @@ Dit project richt zich op de integratie van de **TEROS 12** en **ECH20/5TE** sen
 - **Microcontroller**: ESP32 
 - **Communicatieprotocol**: SDI-12 (voor TEROS 12 en ECH20/5TE)
 - **Server**: Loxone
-- **Netwerkverbinding**: WiFi
+- **Netwerkverbinding**: WiFi : Miniserver IP: 192.168.1.77 : 50001
+
 
 ## Software
 - **Programmeertaal**: C++
