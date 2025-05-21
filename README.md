@@ -35,12 +35,19 @@ Dit project richt zich op de integratie van de TEROS 12 en ECH20/5TE bodemsensor
 
 BodemSensorES2/
 ├── Altium/ # Altium projects files
+
 ├── Docs/ # Documentatiebestanden
+
 ├── Schema's/ # Schematische diagrammen
+
 ├── Src/ # Broncodebestanden
+
 │ ├── 1Sensor.cpp # Uitlezen van 1 senor
+
 │ ├── 2Sensors.cpp # Uitlezen van 2 sensors
+
 │ └── SensorAdressChange.cpp # Sensor adress wijziging
+
 └── README.md 
 
 ---
@@ -91,12 +98,12 @@ BodemSensorES2/
   - Pas de WiFi-gegevens aan:
       ```bash   
         const char* ssid = "jouw_SSID"; const char* password = "jouw_wachtwoord";
-         ```
+      ```
   - Pas het IP-adres van de Loxone Miniserver aan:
         
-         ```bash
+      ```bash
         const char* udpIP = "192.168.1.77"; const int udpPort = 50001;
-         ```
+      ```
         
 3. **Upload de code naar de ESP32**:
     
